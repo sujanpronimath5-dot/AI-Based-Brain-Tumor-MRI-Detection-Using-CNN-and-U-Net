@@ -1,6 +1,6 @@
 # BrainScanAI — local prototype
 
-This ZIP includes:
+This project includes:
 - `app.py`: Streamlit prototype for CNN classification, U-Net segmentation, and Qwen + LoRA chat.
 - The CNN `.keras` file supplied in this conversation.
 - The `BrainScanAI_NLP_v2` adapter files.
@@ -35,11 +35,12 @@ BrainScanAI_Complete/
   app.py
   requirements.txt
   README.md
+  .gitignore
   models/
     cnn/   (included CNN model)
     unet/  (included trained U-Net; _archive/ holds the old untrained v2)
-  unet_previews/  (sample [input | ground truth | prediction] overlays)
     nlp/   (included adapter; not the Qwen base model)
+  unet_previews/  (sample [input | ground truth | prediction] overlays)
   chat_history/
 ```
 
