@@ -1,0 +1,7 @@
+{
+  "input_size": 64,
+  "params": 1951937,
+  "test_dice_mean": 0.7482104819375794,
+  "test_dice_median": 0.8404255319148937,
+  "n_test": 481
+}

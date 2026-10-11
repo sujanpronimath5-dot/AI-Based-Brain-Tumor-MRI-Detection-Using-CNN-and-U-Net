@@ -1,0 +1,9 @@
+streamlit>=1.38
+tensorflow>=2.16
+numpy>=1.26,<2.0
+pillow>=10.0
+transformers>=4.45,<5
+peft>=0.21
+accelerate>=0.34
+safetensors>=0.4
+torch>=2.2

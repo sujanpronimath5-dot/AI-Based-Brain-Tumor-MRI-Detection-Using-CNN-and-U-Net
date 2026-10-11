@@ -1,0 +1,28 @@
+# Virtual environments (never commit these)
+venv/
+.venv/
+env/
+ENV/
+
+# Python caches / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Streamlit secrets (keep credentials out of the repo)
+.streamlit/secrets.toml
+
+# Chat history (demo only; keep the folder, not real conversations)
+chat_history/*
+!chat_history/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
